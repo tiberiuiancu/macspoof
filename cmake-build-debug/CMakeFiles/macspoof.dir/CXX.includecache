@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tiberiu/Desktop/macspoof/main.cpp
+cstdio
+-
+cstring
+-
+cstdlib
+-
+time.h
+-
+sys/ioctl.h
+-
+sys/socket.h
+-
+linux/ethtool.h
+-
+linux/sockios.h
+-
+net/if.h
+-
+
